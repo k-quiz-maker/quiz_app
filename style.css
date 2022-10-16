@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box};
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+}
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+}
+
+#quiz-form{
+    border: 3px solid #32cd32;
+    border-radius: 20px;
+    width: 60vw;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ques-no{
+    font-weight: 400;
+    font-size: 25px;
+    color: #32cd32;
+    margin: 0px 0px 0px 0px;
+}
+
+#question{
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+    text-align: left;
+    margin: 0px 0px 30px 0px;
+}
+
+#quiz-form:focus{
+    border-color: #32cd32;
+    outline: none;
+}
+
+#input-wrapper{
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#input-wrapper li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#input-wrapper label{
+    font-size: 20px;
+    line-height: 1;
+}
+
+#input-wrapper input{
+    width: 20px;
+    height: 20px;
+    accent-color: #333;
+}
+
+.btn{
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #333;
+    padding: 5px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.btn:hover{
+    border-color: #32cd32;
+    outline: none;
+}
+
+#quiz-results{
+    border: 3px solid #32cd32;
+    border-radius: 20px;
+    width: 60vw;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+#results{
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+}
+
+#products-img{
+    width: 50vw;
+    height: auto;
+}
+
+#sold-shop{
+    margin: 10px 0;
+}
